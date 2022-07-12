@@ -14,7 +14,7 @@ wn.tracer(0)
 
 # Paddles
 
-paddle_a = Ai(-350, 0)
+paddle_a = Ai(-350, 0)          ## paddle objects
 paddle_b = Ai(350, 0)
 
 
@@ -25,7 +25,7 @@ tlt2 = Menu('DarkOrchid', 40)
 
 def test1():
     call(['python', 'PVP.py'])
-
+                                        ## calling game modes on button click
 
 def test2():
     call(['python', 'PVE.py'])
@@ -38,7 +38,7 @@ click_btn2 = tk.PhotoImage(file='vs_ai.gif')
 
 button1 = tk.Button(parent, image=(click_btn1), padx=70, pady=30, command=test1)
 id1 = canvas.create_window((0, 100), window=button1)
-
+                                                                                                 ## main menu buttons with image
 button2 = tk.Button(parent, image=(click_btn2), padx=70, pady=30, command=test2)
 id2 = canvas.create_window((0, -100), window=button2)
 
@@ -86,7 +86,7 @@ while True:
         ball.setx(-340)
         ball.dx *= -1
 
-    #AI
+    # Background AI
 
     if paddle_b.paddle.ycor() < ball.ycor() and abs(paddle_b.paddle.ycor() - ball.ycor()) > 40:
         paddle_b.paddle_up()
