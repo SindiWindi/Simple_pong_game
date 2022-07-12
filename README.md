@@ -5,3 +5,4 @@ A simple project of pong game using turtle module in Python 3.10
 
 
 # General info
+Game is witten mainly based on turtle module using some of the OOP concepts and separated to diffrent files to make the code more clear 
