@@ -19,7 +19,7 @@ class Ai:
         y = self.paddle.ycor()
         y += 5
         self.paddle.sety(y)
-
+                                     ##  same methods as in player paddle class, but with lowered speed to make it look smooth
     def paddle_down(self):
         y = self.paddle.ycor()
         y -= 5
