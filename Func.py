@@ -14,7 +14,7 @@ class Paddle:
         self.paddle.penup()
         self.paddle.goto(x, y)
         self.paddle.color('SlateBlue1')
-
+                                                            
     def paddle_up(self):
         y = self.paddle.ycor()
         y += 50
@@ -55,8 +55,8 @@ class Menu:
 
         tlt = turtle.Turtle()
         tlt.penup()
-        tlt.speed(0)
-        tlt.hideturtle()
+        tlt.speed(0)                       ## main menu title 
+        tlt.hideturtle()                    
         tlt.goto(0, 200)
         tlt.color(col)
         tlt.write("P o n g", align='center', font=('Comic Sans', siz, 'bold'))
@@ -67,7 +67,7 @@ class Button:
 
         self.button = turtle.Turtle()
         self.button.speed(0)
-        self.button.penup()
+        self.button.penup()               ## main menu buttons location and shape
         self.button.goto(0, y)
         self.button.shape(x)
 
