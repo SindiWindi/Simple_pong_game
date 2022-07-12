@@ -18,6 +18,7 @@ Turned to exe using PyPI auto-py-to-exe [website](https://pypi.org/project/auto-
 # Images
 Game contains main menu with two AI's playing in the background<br>
 There's also two game mode's to chose from, which are PVP or VS AI<br>
+<br>
 ![meniu](https://user-images.githubusercontent.com/102676304/178407437-f80d83b3-72bb-46b9-b29a-5dc75dd8e3df.PNG)
 
 # Informations
