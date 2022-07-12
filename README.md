@@ -20,3 +20,7 @@ Game contains main menu with two AI's playing in the background<br>
 There's also two game mode's to chose from, which are PVP or VS AI<br>
 ![meniu](https://user-images.githubusercontent.com/102676304/178407437-f80d83b3-72bb-46b9-b29a-5dc75dd8e3df.PNG)
 
+# Informations
+Main menu window isn't closing after choosing game mode.<br>
+<br>
+Zip folder in attached files contains whole game turned to .exe
