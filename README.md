@@ -24,4 +24,3 @@ There's also two game mode's to chose from, which are PVP or VS AI<br>
 # Informations
 Main menu window isn't closing after choosing game mode.<br>
 <br>
-Zip folder in attached files contains whole game turned to .exe
