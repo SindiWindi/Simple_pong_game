@@ -7,7 +7,7 @@ import tkinter as tk
 
 wn = turtle.Screen()
 wn.title("Pong by Sindi")
-wn.bgpic('nice 1.gif')
+wn.bgpic('images/nice 1.gif')
 
 wn.setup(width=800, height=600)
 wn.tracer(0)
@@ -33,8 +33,8 @@ def test2():
 canvas = turtle.getcanvas()
 parent = canvas.master
 
-click_btn1 = tk.PhotoImage(file='pvp_button.gif')
-click_btn2 = tk.PhotoImage(file='vs_ai.gif')
+click_btn1 = tk.PhotoImage(file='images/pvp_button.gif')
+click_btn2 = tk.PhotoImage(file='images/vs_ai.gif')
 
 button1 = tk.Button(parent, image=(click_btn1), padx=70, pady=30, command=test1)
 id1 = canvas.create_window((0, 100), window=button1)
