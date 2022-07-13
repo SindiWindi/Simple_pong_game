@@ -4,7 +4,7 @@ from AI import Ai
 
 wn = turtle.Screen()
 wn.title("Pong by Sindi")
-wn.bgpic('nice 1.gif')
+wn.bgpic('images/nice 1.gif')
 
 wn.setup(width=800, height=600)
 wn.tracer(0)
